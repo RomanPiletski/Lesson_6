@@ -1,0 +1,65 @@
+@import 'forimport';
+#upper{
+    margin: 100px 0 25px 0;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+   }
+body {
+    text-align: center;
+}
+h1, h2 {
+    color: $primary-color;
+}
+.awesome {
+    width: 100%;
+    height: 200px;      
+}
+.awesome-content-text{
+    font-size: 14px;
+    color: $secondary-color; 
+}
+.why-awesome{
+    width: 100%;
+    height: 345;
+    font-size: 0;
+}
+.why-awesome-block{    
+    top: 250px;
+    font-size: 20px;
+    width: 33.33%;
+    display: inline-block; 
+    padding: 0px 5px 60px 5px;  
+}
+.why-awesome-block-title{    
+    font-size: 14px;
+    color: $secondary-color;
+}
+.circle{
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.underline{
+    border: 1px solid #E72424;
+    width: 64px;
+    margin: 0 auto 30px;
+}
+.lamp{
+    background-image: url("./assets/icons/lamp.svg");    
+}
+.keyboard{
+    background-image: url("./assets/icons/keyboard.svg");  
+}
+.light{
+    background-image: url("./assets/icons/light.svg");
+}

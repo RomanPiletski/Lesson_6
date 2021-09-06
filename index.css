@@ -1,0 +1,158 @@
+.block2 {
+  position: relative;
+  background-image: url("./assets/img/image_background.svg");
+  width: 100%;
+  background-size: cover;
+  height: 325px;
+}
+
+.image-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.block2-title {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 76px;
+  color: darkgreen;
+}
+
+.block2-underline {
+  border: 1px solid #FFFFFF;
+  width: 64px;
+  margin: 30px auto 30px;
+}
+
+.block2-title-small {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: blue;
+  opacity: 80%;
+}
+
+.button-form {
+  margin: 30px auto;
+  width: 15%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.button-download {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  border: 0px;
+  width: 100%;
+  font-size: 15px;
+  background: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.block2-footer {
+  position: relative;
+  background-color: #000000;
+  width: 100%;
+  height: 101px;
+}
+
+.block2-footer-links {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.block2-footer-title {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: blue;
+  opacity: 50%;
+}
+
+#upper {
+  margin: 100px 0 25px 0;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  color: darkgreen;
+}
+
+.awesome {
+  width: 100%;
+  height: 200px;
+}
+
+.awesome-content-text {
+  font-size: 14px;
+  color: blue;
+}
+
+.why-awesome {
+  width: 100%;
+  height: 345;
+  font-size: 0;
+}
+
+.why-awesome-block {
+  top: 250px;
+  font-size: 20px;
+  width: 33.33%;
+  display: inline-block;
+  padding: 0px 5px 60px 5px;
+}
+
+.why-awesome-block-title {
+  font-size: 14px;
+  color: blue;
+}
+
+.circle {
+  border: 1px solid #E72424;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.underline {
+  border: 1px solid #E72424;
+  width: 64px;
+  margin: 0 auto 30px;
+}
+
+.lamp {
+  background-image: url("./assets/icons/lamp.svg");
+}
+
+.keyboard {
+  background-image: url("./assets/icons/keyboard.svg");
+}
+
+.light {
+  background-image: url("./assets/icons/light.svg");
+}
+
+/*# sourceMappingURL=index.css.map */
